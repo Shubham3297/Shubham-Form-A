@@ -1,0 +1,57 @@
+.form{
+    
+   display: flex;
+   flex-direction: column;
+   border: 1px solid black;
+   width: 600px;
+   margin: 20px 450px;
+   padding: 25px;
+}
+.textarea{
+    width: 200px;
+    height: 100px;
+}
+.col-25{
+    float: left;
+    width: 25%;
+    /* margin-top: 6px; */
+}
+.col-75{
+    float: left;
+    /* width: 75%; */
+    margin-top: -19px;
+}
+.redio-label{
+    display: flex;
+    flex-direction: row;
+    margin-top: -30px;
+}
+.redio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.check-label{
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+}
+.errors{
+    color: red;
+}
+table{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    margin: 20px 430px;
+    width: 700px;
+    justify-content: center;
+}
+td{
+
+    padding: 10px;
+}
